@@ -108,9 +108,9 @@ section[data-testid="stSidebar"] *{
 
 # LOAD MODELS + METRICS
 
-heart_model = joblib.load("Heart/heart_pipeline.sav")
-cancer_model = joblib.load("Breast_cancer/cancer_model.sav")
-diabetes_model = joblib.load("diabetes/diabetes_model.sav")
+heart_model = joblib.load("heart_pipeline.sav")
+cancer_model = joblib.load("cancer_model.sav")
+diabetes_model = joblib.load("diabetes_model.sav")
 
 # (optional metrics file - if exists)
 try:
